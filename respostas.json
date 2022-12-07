@@ -1,0 +1,14 @@
+[
+    {
+        "response_type": "cumprimentar",
+        "user_input": ["oi", "ola"],
+        "resposta_bot": "ola, tudo bem?",
+        "palavras_requeridas": []
+    },
+    {
+        "response_type": "irineu",
+        "user_input": ["irineu"],
+        "resposta_bot": "vc não sabe nem eu",
+        "palavras_requeridas": ["irineu"]
+    }
+]
