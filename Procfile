@@ -1,3 +1,3 @@
-web: gunicorn webapp:app
-web.2: python3 telegram_bot_integration
+web: python3 telegram_bot_integration
+web2: gunicorn webapp:app
 
