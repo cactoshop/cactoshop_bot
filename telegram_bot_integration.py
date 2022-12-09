@@ -14,7 +14,7 @@ def help_command(update, context):
 
 def handle_message(update, context):
     text = str(update.message.text).lower()
-    response = M.pega_resposta(text).replace("<br>", "\n")
+    response = M.pega_resposta(text).replace("<br>", "\n").replace("&#8250", ">")
 
     update.message.reply_text(response)
 
