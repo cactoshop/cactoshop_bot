@@ -86,7 +86,7 @@ h3 {
 .btn-warning {
     color: #fff;
     background-color: #f08f00;
-    border-color: #c27400;
+    border-color: none;
 }
 .btn.btn-warning:active, .btn.btn-warning:focus, .btn.btn-warning:hover {
     box-shadow: 0 14px 26px -12px rgba(255,152,0,.42),0 4px 23px 0 rgba(0,0,0,.12),0 8px 10px -5px rgba(255,152,0,.2);
@@ -100,7 +100,7 @@ button, input, optgroup, select, textarea {
     overflow:visible;
 }
 #chatbox {
-    background-color: cyan;
+    background-color: #f2ddcc;
     margin-left: auto;
     margin-right: auto;
     width: 80%;
@@ -139,13 +139,13 @@ button, input, optgroup, select, textarea {
 }
 
 .userText span {
-    background-color: #009688;
+    background-color: #fcac89;
     padding: 10px;
     border-radius: 2px;
 }
 
 .botText {
-    color: white;
+    color: #202323;
     font-family: monospace;
     font-size: 17px;
     text-align: left;
@@ -154,7 +154,7 @@ button, input, optgroup, select, textarea {
 }
 
 .botText span {
-    background-color: #ef5350;
+    background-color: #d2e4dc;
     padding: 10px;
     border-radius: 2px;
 }
