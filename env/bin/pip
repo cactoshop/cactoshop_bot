@@ -1,4 +1,4 @@
-#!/home/melon/projects/cactobot/env/bin/python3
+#!/home/melon/projects/cactoshop_bot/env/bin/python3
 # -*- coding: utf-8 -*-
 import re
 import sys
