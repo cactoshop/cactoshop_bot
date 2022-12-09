@@ -10,7 +10,7 @@
 pip install flask
 ```
 
-4. Instalar o pacote do Python Telegram Bot integração com o Telegram:
+4. Instalar o pacote do Python Telegram Bot para integração com o Telegram:
 ```
 pip install python-telegram-bot
 ```
