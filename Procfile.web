@@ -1,2 +1,0 @@
-webap: gunicorn webapp:app
-telegram: python3 telegram_bot_integration.py
