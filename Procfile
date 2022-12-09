@@ -1,1 +1,1 @@
-web: gunicorn webapp:app --processes 2
+web: bin/runsvdir-dyno
