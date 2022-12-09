@@ -1,5 +1,3 @@
-# cactoshop_bot
-
 ## Configurando o bot
 
 ##### Requisitos
