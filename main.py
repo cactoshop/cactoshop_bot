@@ -40,7 +40,3 @@ def pega_resposta(input_string):
         return dados_resposta[index_resposta]["resposta_bot"]
     
     return respostas_aleatorias.random_string()
-
-# while True:
-    # user_input = input("vc: ")
-    # print("bot:", pega_resposta(user_input))
