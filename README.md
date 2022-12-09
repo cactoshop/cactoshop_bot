@@ -2,30 +2,29 @@
 
 ## Configurando o bot
 
-###### Requisitos
+##### Requisitos
 1. Instalar o Python 3.11.1 + pip 3.11
 
-2. Ativar um ambiente virtual (env)
+2. Ativar o ambiente virtual (env)
 
-3. Para subir a aplicação:
-3.1 Instalar o flask
+3. Instalar o flask:
 ```
 pip install flask
 ```
 
-3.2 Rodar o webserver
+4. Instalar o pacote do Python Telegram Bot integração com o Telegram:
+```
+pip install python-telegram-bot
+```
+
+5. Rodar o servidor web e subir o bot localmente
 ```
 python3 webapp.py
 ```
 Acessar o endereço https://localhost:5000 no seu navegador.
 
-4. Para integração com o Telegram:
-4.1 Instalar o pacote do Python Telegram Bot
-```
-pip install python-telegram-bot
-```
-
-4.2 Inicializar o bot
+##### Inicializar o bot
+Inicializar o bot separadamente da aplicação web
 ```
 python3 telegram_bot_integration.py
 ```
