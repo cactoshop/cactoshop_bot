@@ -1,1 +1,2 @@
-web: python3 webapp.py
+web: gunicorn webapp:app
+web: python3 telegram_bot_integration.py
