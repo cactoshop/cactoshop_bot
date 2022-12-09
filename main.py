@@ -37,6 +37,7 @@ def pega_resposta(input_string):
         return "Por favor, digite algo para iniciar a conversa."
     
     if melhor_resposta != 0:
-        return dados_resposta[index_resposta]["resposta_bot"]
+        resposta_replace = dados_resposta[index_resposta]["resposta_bot"]
+        return resposta_replace
     
     return respostas_aleatorias.random_string()

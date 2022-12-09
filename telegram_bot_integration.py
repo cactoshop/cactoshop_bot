@@ -14,7 +14,7 @@ def help_command(update, context):
 
 def handle_message(update, context):
     text = str(update.message.text).lower()
-    response = M.pega_resposta(text)
+    response = M.pega_resposta(text).replace("<br>", "\n")
 
     update.message.reply_text(response)
 
@@ -35,4 +35,4 @@ def main():
     updater.start_polling()
     updater.idle()
 
-main()
+#main()
