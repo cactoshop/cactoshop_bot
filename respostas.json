@@ -1,14 +1,62 @@
 [
     {
         "response_type": "cumprimentar",
-        "user_input": ["oi", "ola"],
-        "resposta_bot": "ola, tudo bem?",
+        "user_input": ["oi", "ola", "olá"],
+        "resposta_bot": "Olá, tudo bem? Para exibir o menu de ajuda, digite 'ajuda'",
+        "palavras_requeridas": []
+    },
+    {
+        "response_type": "menu",
+        "user_input": ["ajuda", "menu", "help", "comandos"],
+        "resposta_bot": "Menu: <br>1 - Sobre nós <br>2 - Compras <br>3 - Entregas e prazos <br><br>Para escolher uma opção, digite a palavra correspondente.",
+        "palavras_requeridas": []
+    },
+    {
+        "response_type": "1_sobre",
+        "user_input": ["sobre", "1"],
+        "resposta_bot": "Somos a Cactoshop, uma loja de plantas especializada na venda de cactos e suculentas. Além disso, vendemos acessórios, terras, substratos, decoração para jardim, entre outros artigos para jardinagem.",
+        "palavras_requeridas": []
+    },
+    {
+        "response_type": "2_compras",
+        "user_input": ["compras", "2"],
+        "resposta_bot": "Menu de compras (comandos): <br>Pagamentos <br>Cancelamento <br>Devolução <br>Reembolso <br><br>Para escolher uma opção, digite um dos comandos acima.",
+        "palavras_requeridas": []
+    },
+    {
+        "response_type": "pagamentos",
+        "user_input": ["pagamentos"],
+        "resposta_bot": "Aceitamos as seguintes formas de pagamento em nossa loja: <br>-Pix <br>-Boleto bancário <br>-Cartões de crédito: <br>1.Visa <br>2.Mastercard <br>3.Elo",
+        "palavras_requeridas": []
+    },
+    {
+        "response_type": "cancelamento",
+        "user_input": ["cancelamento", "cancela", "cancelar"],
+        "resposta_bot": "Para cancelar um pedido que já teve o pagamento aprovado, mas ainda não foi enviado, basta ir em Menu &#8250 Meus pedidos &#8250 Cancelar pedido.",
+        "palavras_requeridas": []
+    },
+    {
+        "response_type": "devolucao",
+        "user_input": ["devolucao", "devolução", "devoluçao"],
+        "resposta_bot": "Regras de devolução: <br>1. Após a entrega do produto, só é possível solicitar a devolução dentro de 7 dias. <br>2. Depois de solicitar, sua solicitação passará por uma análise e faremos a liberação de postagem nos correios. <br>3. O produto deverá ser devolvido exatamente como foi recebido.",
+        "palavras_requeridas": []
+    },
+    {
+        "response_type": "reembolso",
+        "user_input": ["reembolso"],
+        "resposta_bot": "Em caso de devolução: <br>Para receber o reembolso, basta nos enviar uma mensagem com o código de postagem do produto que faremos a liberação do pagamento. <br><br>Em caso de cancelamento: <br>Se o pagamento foi por cartão, faremos o estorno automaticamente. Caso tenha sido por Pix ou Boleto, pedimos que mande mensagem para o nosso suporte, para que assim possamos reembolsar na sua conta bancária.",
+        "palavras_requeridas": []
+    },
+    {
+        "response_type": "3_entregas",
+        "user_input": ["3", "entregas", "prazos"],
+        "resposta_bot": "Os produtos comprados em nossa loja serão postados dentro de 5 dias úteis, após o pagamento. O prazo para entrega dependerá da sua localização, para descobrir, digite o seu CEP no simulador enquanto estiver na página do produto.",
         "palavras_requeridas": []
     },
     {
         "response_type": "irineu",
         "user_input": ["irineu"],
-        "resposta_bot": "vc não sabe nem eu",
+        "resposta_bot": "vc nao sabe nem eu",
         "palavras_requeridas": ["irineu"]
     }
 ]
