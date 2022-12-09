@@ -8,7 +8,7 @@
     {
         "response_type": "menu",
         "user_input": ["ajuda", "menu", "help", "comandos"],
-        "resposta_bot": "Menu1: <br>1 - Sobre nós <br>2 - Compras <br>3 - Entregas e prazos <br><br>Para escolher uma opção, digite a palavra correspondente.",
+        "resposta_bot": "Menu: <br>1 - Sobre nós <br>2 - Compras <br>3 - Entregas e prazos <br><br>Para escolher uma opção, digite a palavra correspondente.",
         "palavras_requeridas": []
     },
     {
